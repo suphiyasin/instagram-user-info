@@ -2,11 +2,13 @@
 
 # Usage / Kullanım : 
 
-domain.com/index.php?username=ronaldo
-if you want see profil pic.
+domain.com/index.php?username=ronaldo<br/>
+if you want see profil pic.<br/>
+```
 $sorgu = $use->get($user, "pphd");
 $media = $use->getpp($user, $sorgu);
 echo "<img src='./userpps/$media.jpg'/>";
+```
 
 for last media 
 $sorgu = $use->get($user, "lastmedia");
