@@ -1,7 +1,7 @@
 <?php
+error_reporting(0);
 class getinsta{
 	public $cookie;
-	
 	//get func. 
 public function get($user, $islem){
 	
