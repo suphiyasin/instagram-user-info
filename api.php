@@ -1,6 +1,5 @@
 <?php
 class getinsta{
-  error_reporting(0);
 	public $cookie;
 	
 	//get func. 
